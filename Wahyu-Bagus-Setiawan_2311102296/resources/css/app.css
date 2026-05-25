@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:
+        linear-gradient(rgba(8,15,40,0.88), rgba(8,15,40,0.92)),
+        url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1920&auto=format&fit=crop');
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    color:white;
+}
+
+.glass-card{
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(14px);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:20px;
+    box-shadow:0 8px 32px rgba(0,0,0,0.35);
+}
+
+.navbar-custom{
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(12px);
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.table{
+    color:white;
+}
+
+.table thead{
+    background: rgba(255,255,255,0.08);
+}
+
+.table tbody tr:hover{
+    background: rgba(255,255,255,0.04);
+}
+
+.badge-soft-success{
+    background:#163d2a;
+    color:#7dffb3;
+}
+
+.badge-soft-warning{
+    background:#4a3512;
+    color:#ffd36b;
+}
+
+.badge-soft-danger{
+    background:#4a1717;
+    color:#ff8e8e;
+}
+
+.stat-card{
+    padding:20px;
+    border-radius:18px;
+    background: rgba(255,255,255,0.07);
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.form-control{
+    background: rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.15);
+    color:white;
+}
+
+.form-control:focus{
+    background: rgba(255,255,255,0.12);
+    color:white;
+    border-color:#7c9dff;
+    box-shadow:none;
+}
+
+.form-control::placeholder{
+    color:#d3d3d3;
+}
+
+.btn-modern{
+    background: linear-gradient(135deg,#5b8cff,#7b61ff);
+    border:none;
+    color:white;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn-modern:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(91,140,255,0.4);
+}
+
+.inventory-title{
+    font-weight:700;
+    font-size:32px;
+}
+
+code{
+    color:#7fd1ff !important;
+}
