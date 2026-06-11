@@ -1,0 +1,49 @@
+1. jelaskan tentang git branch 
+ - apa itu git branch 
+- buatlah git branch dengan 2 akun berbeda dan hubungkan dengan project yang di buat di tugas 2 ( bisa dengan antar teman kelas 
+- kalian jelaskan apa saja fungsi nya dan apa keuntungan git branch 
+- buat juga output dan input apa saja yang dapat kalian lakukan mengunakan git branch
+2. buatlah website ( bisa mengunakan website yang di gunnakan dalam tubes ) , lalu tambahkan database yang terhubung dengan local house 
+
+-referensi : posgress sql
+
+
+D. Panduan Simulasi 2 Akun Berbeda pada Project Tugas 2
+(Langkah ini dilakukan bersama teman sekelas atau menggunakan secondary account milikmu sendiri)
+
+Akun Utama (Pemilik Repositori Tugas 2):
+
+Masuk ke GitHub, buka repositori Tugas 2 kamu.
+
+Pergi ke menu Settings > Collaborators > Klik Add People.
+
+Undang Akun Kedua (Teman Kelas) menggunakan username atau email GitHub mereka.
+
+Akun Kedua (Kolaborator):
+
+Buka email atau notifikasi GitHub untuk menerima undangan kolaborasi.
+
+Lakukan clone project ke komputernya:
+
+Bash
+git clone <URL-repositori-tugas-2>
+cd <nama-folder-project>
+Akun Kedua membuat branch baru untuk mengerjakan tugasnya:
+
+Bash
+git checkout -b fitur-akun-dua
+Lakukan modifikasi file, lakukan komit, lalu push branch tersebut ke GitHub:
+
+Bash
+git add .
+git commit -m "menambah fitur oleh akun kedua"
+git push origin fitur-akun-dua
+Proses Penggabungan (Merge):
+
+Buka halaman GitHub repositori tersebut.
+
+Akan muncul tombol kuning bertuliskan "Compare & pull request".
+
+Buat Pull Request (PR) dari branch fitur-akun-dua ke branch main.
+
+Akun Utama meninjau kodenya, klik "Merge pull request", dan kode dari Akun Kedua resmi menyatu dengan project utama.
